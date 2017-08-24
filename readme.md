@@ -1,4 +1,4 @@
-# Boilerplate Nodejs Web Server
+# Nodejs Web Server Boilerplate
 
 ## Tech stack
 * Express
