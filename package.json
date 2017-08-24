@@ -1,0 +1,28 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 100000 --recursive",
+    "prestart": "npm install",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.5.0",
+    "express": "^4.15.4",
+    "glob": "^7.1.2",
+    "jsonwebtoken": "^7.4.2",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.10.8",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "mocha": "^2.4.5"
+  }
+}
